@@ -35,4 +35,17 @@ return [
         ],
     ],
 
+    'openai' => [
+        'key' => env('OPENAI_API_KEY'),
+        'organization' => env('OPENAI_ORGANIZATION'),
+    ],
+
+    'stability' => [
+        'key' => env('STABILITY_API_KEY'),
+    ],
+
+    'leonardo' => [
+        'key' => env('LEONARDO_API_KEY'),
+    ],
+
 ];
